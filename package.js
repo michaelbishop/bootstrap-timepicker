@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function(api) {
 	api.add_files('js/bootstrap-timepicker.js', 'client');
-	api.add_files('css/timepicker.css', 'client');
+	api.add_files('css/bootstrap-timepicker.css', 'client');
 
 	api.use('less', 'client');
 });
